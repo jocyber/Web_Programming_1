@@ -1,0 +1,27 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  height: 200px;
+}
+
+th, td {
+  border: 2px solid black;
+}
+
+.topcorner {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.center {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
