@@ -5,25 +5,41 @@
 
         <style media="screen">
           #input {
-            height: 35px;
+            height: 45px;
             font-size: 18px;
             border-radius: 25px;
-            padding-left: 10px;
+            border-width:1px;
+            border-color: black;
+            padding-left: 20px;
+          }
+
+          #input:focus {
+            outline: none;
+            border-color: #979794;
+          }
+
+          #input:hover {
+            border-color: #979794;
           }
 
           #submitStyle {
-            padding-top: 40px;
-            padding-left: 230px;
+            padding-top: 6%;
+            padding-left: 11.8%;
           }
         </style>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://google.com/search" class="center">
-            <input type="text" name="q" size="60" id="input"></br>
+        <img src="googleLogo.png" alt="Google" id="logo">
 
-            <div id="submitStyle">
-              <input type="submit" value="Google Search">
+
+        <form action="https://google.com/search">
+          <div class="center">
+            <input type="text" name="q" size="60" id="input"></br>
+          </div>
+
+            <div class="center" id="submitStyle">
+              <input type="submit" value="Google Search" class="buttonStyle">
             </div>
         </form>
 
