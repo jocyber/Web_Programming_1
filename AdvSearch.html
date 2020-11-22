@@ -6,6 +6,22 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="index.html" class="topcorner">Google Search</a>
+      <h2 style="color: red; margin-left: 1%;">Advanced Search</h2> </br>
+      <hr width="100%">
+      <h3 style="padding-top: 30px; margin-left: 1%;">Find pages with...</h3>
+
+        <form action="https://google.com/search">
+            <div class="leftAligned"> all these words: <input class="advancedInput" type="text" name="as_q"></div>
+            <div class="leftAligned"> this exact word or phrase: <input class="advancedInput" type="text" name="as_oq"></div>
+            <div class="leftAligned"> any of these words: <input class="advancedInput" type="text" name="as_epq"></div>
+            <div class="leftAligned"> none of these words: <input class="advancedInput" type="text" name="as_eq"></div>
+
+            <div>
+              <input type="submit" value="Advanced Search" id="aSearchInput">
+            </div>
+        </form>
+
+
+        <div class="topcorner"><a href="index.html" class="link">Google Search</a></div>
     </body>
 </html>>

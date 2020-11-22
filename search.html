@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-
-        <style media="screen">
-          .input {
-            height: 35px;
-            font-size: 18px;
-            border-radius: 25px;
-            padding-left: 10px;
-          }
-
-          #submitStyle {
-            padding-top: 40px;
-            padding-left: 230px;
-          }
-        </style>
+        <title>Google Images</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://google.com/images" class="center">
-            <input type="text" name="q" size="60" class="input"></br>
+        <img src="googleImages.png" alt="Images" id="logo">
 
-            <div id="submitStyle">
-              <input type="submit" value="Google Images">
+        <!--Form for submitions-->
+        <form action="https://google.com/images">
+
+          <div class="center">
+            <input type="text" name="q" size="60" id="input"></br>
+          </div>
+
+            <div class="center" id="submitStyle" style="padding-left: 12%;">
+              <input type="submit" value="Google Images" class="buttonStyle">
             </div>
+            
         </form>
-
-        <a href="index.html" class="topcorner">Google Search</a>
+        <div class="topcorner"><a href="index.html" class="link">Google Search</a></div>
     </body>
 </html>
